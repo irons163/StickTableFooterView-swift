@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1653AED287EFF7100FE6884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1653AEC287EFF7100FE6884 /* AppDelegate.swift */; };
+		D1653AEF287EFF7100FE6884 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1653AEE287EFF7100FE6884 /* SceneDelegate.swift */; };
+		D1653AF1287EFF7100FE6884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1653AF0287EFF7100FE6884 /* ViewController.swift */; };
+		D1653AF4287EFF7100FE6884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1653AF2287EFF7100FE6884 /* Main.storyboard */; };
+		D1653AF6287EFF7300FE6884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1653AF5287EFF7300FE6884 /* Assets.xcassets */; };
+		D1653AF9287EFF7300FE6884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1653AF7287EFF7300FE6884 /* LaunchScreen.storyboard */; };
+		D1653B04287EFF7300FE6884 /* StickTableFooterView_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1653B03287EFF7300FE6884 /* StickTableFooterView_swiftTests.swift */; };
+		D1653B0E287EFF7300FE6884 /* StickTableFooterView_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1653B0D287EFF7300FE6884 /* StickTableFooterView_swiftUITests.swift */; };
+		D1653B10287EFF7300FE6884 /* StickTableFooterView_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1653B0F287EFF7300FE6884 /* StickTableFooterView_swiftUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1653B00287EFF7300FE6884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1653AE1287EFF7100FE6884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1653AE8287EFF7100FE6884;
+			remoteInfo = "StickTableFooterView-swift";
+		};
+		D1653B0A287EFF7300FE6884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1653AE1287EFF7100FE6884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1653AE8287EFF7100FE6884;
+			remoteInfo = "StickTableFooterView-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1653AE9287EFF7100FE6884 /* StickTableFooterView-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StickTableFooterView-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1653AEC287EFF7100FE6884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1653AEE287EFF7100FE6884 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D1653AF0287EFF7100FE6884 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1653AF3287EFF7100FE6884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1653AF5287EFF7300FE6884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1653AF8287EFF7300FE6884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1653AFA287EFF7300FE6884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1653AFF287EFF7300FE6884 /* StickTableFooterView-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StickTableFooterView-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1653B03287EFF7300FE6884 /* StickTableFooterView_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickTableFooterView_swiftTests.swift; sourceTree = "<group>"; };
+		D1653B09287EFF7300FE6884 /* StickTableFooterView-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StickTableFooterView-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1653B0D287EFF7300FE6884 /* StickTableFooterView_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickTableFooterView_swiftUITests.swift; sourceTree = "<group>"; };
+		D1653B0F287EFF7300FE6884 /* StickTableFooterView_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickTableFooterView_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1653AE6287EFF7100FE6884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1653AFC287EFF7300FE6884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1653B06287EFF7300FE6884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1653AE0287EFF7100FE6884 = {
+			isa = PBXGroup;
+			children = (
+				D1653AEB287EFF7100FE6884 /* StickTableFooterView-swift */,
+				D1653B02287EFF7300FE6884 /* StickTableFooterView-swiftTests */,
+				D1653B0C287EFF7300FE6884 /* StickTableFooterView-swiftUITests */,
+				D1653AEA287EFF7100FE6884 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1653AEA287EFF7100FE6884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1653AE9287EFF7100FE6884 /* StickTableFooterView-swift.app */,
+				D1653AFF287EFF7300FE6884 /* StickTableFooterView-swiftTests.xctest */,
+				D1653B09287EFF7300FE6884 /* StickTableFooterView-swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1653AEB287EFF7100FE6884 /* StickTableFooterView-swift */ = {
+			isa = PBXGroup;
+			children = (
+				D1653AEC287EFF7100FE6884 /* AppDelegate.swift */,
+				D1653AEE287EFF7100FE6884 /* SceneDelegate.swift */,
+				D1653AF0287EFF7100FE6884 /* ViewController.swift */,
+				D1653AF2287EFF7100FE6884 /* Main.storyboard */,
+				D1653AF5287EFF7300FE6884 /* Assets.xcassets */,
+				D1653AF7287EFF7300FE6884 /* LaunchScreen.storyboard */,
+				D1653AFA287EFF7300FE6884 /* Info.plist */,
+			);
+			path = "StickTableFooterView-swift";
+			sourceTree = "<group>";
+		};
+		D1653B02287EFF7300FE6884 /* StickTableFooterView-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1653B03287EFF7300FE6884 /* StickTableFooterView_swiftTests.swift */,
+			);
+			path = "StickTableFooterView-swiftTests";
+			sourceTree = "<group>";
+		};
+		D1653B0C287EFF7300FE6884 /* StickTableFooterView-swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1653B0D287EFF7300FE6884 /* StickTableFooterView_swiftUITests.swift */,
+				D1653B0F287EFF7300FE6884 /* StickTableFooterView_swiftUITestsLaunchTests.swift */,
+			);
+			path = "StickTableFooterView-swiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1653AE8287EFF7100FE6884 /* StickTableFooterView-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1653B13287EFF7300FE6884 /* Build configuration list for PBXNativeTarget "StickTableFooterView-swift" */;
+			buildPhases = (
+				D1653AE5287EFF7100FE6884 /* Sources */,
+				D1653AE6287EFF7100FE6884 /* Frameworks */,
+				D1653AE7287EFF7100FE6884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StickTableFooterView-swift";
+			productName = "StickTableFooterView-swift";
+			productReference = D1653AE9287EFF7100FE6884 /* StickTableFooterView-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1653AFE287EFF7300FE6884 /* StickTableFooterView-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1653B16287EFF7300FE6884 /* Build configuration list for PBXNativeTarget "StickTableFooterView-swiftTests" */;
+			buildPhases = (
+				D1653AFB287EFF7300FE6884 /* Sources */,
+				D1653AFC287EFF7300FE6884 /* Frameworks */,
+				D1653AFD287EFF7300FE6884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1653B01287EFF7300FE6884 /* PBXTargetDependency */,
+			);
+			name = "StickTableFooterView-swiftTests";
+			productName = "StickTableFooterView-swiftTests";
+			productReference = D1653AFF287EFF7300FE6884 /* StickTableFooterView-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1653B08287EFF7300FE6884 /* StickTableFooterView-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1653B19287EFF7300FE6884 /* Build configuration list for PBXNativeTarget "StickTableFooterView-swiftUITests" */;
+			buildPhases = (
+				D1653B05287EFF7300FE6884 /* Sources */,
+				D1653B06287EFF7300FE6884 /* Frameworks */,
+				D1653B07287EFF7300FE6884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1653B0B287EFF7300FE6884 /* PBXTargetDependency */,
+			);
+			name = "StickTableFooterView-swiftUITests";
+			productName = "StickTableFooterView-swiftUITests";
+			productReference = D1653B09287EFF7300FE6884 /* StickTableFooterView-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1653AE1287EFF7100FE6884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D1653AE8287EFF7100FE6884 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D1653AFE287EFF7300FE6884 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D1653AE8287EFF7100FE6884;
+					};
+					D1653B08287EFF7300FE6884 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D1653AE8287EFF7100FE6884;
+					};
+				};
+			};
+			buildConfigurationList = D1653AE4287EFF7100FE6884 /* Build configuration list for PBXProject "StickTableFooterView-swift" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1653AE0287EFF7100FE6884;
+			productRefGroup = D1653AEA287EFF7100FE6884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1653AE8287EFF7100FE6884 /* StickTableFooterView-swift */,
+				D1653AFE287EFF7300FE6884 /* StickTableFooterView-swiftTests */,
+				D1653B08287EFF7300FE6884 /* StickTableFooterView-swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1653AE7287EFF7100FE6884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1653AF9287EFF7300FE6884 /* LaunchScreen.storyboard in Resources */,
+				D1653AF6287EFF7300FE6884 /* Assets.xcassets in Resources */,
+				D1653AF4287EFF7100FE6884 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1653AFD287EFF7300FE6884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1653B07287EFF7300FE6884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1653AE5287EFF7100FE6884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1653AF1287EFF7100FE6884 /* ViewController.swift in Sources */,
+				D1653AED287EFF7100FE6884 /* AppDelegate.swift in Sources */,
+				D1653AEF287EFF7100FE6884 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1653AFB287EFF7300FE6884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1653B04287EFF7300FE6884 /* StickTableFooterView_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1653B05287EFF7300FE6884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1653B10287EFF7300FE6884 /* StickTableFooterView_swiftUITestsLaunchTests.swift in Sources */,
+				D1653B0E287EFF7300FE6884 /* StickTableFooterView_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1653B01287EFF7300FE6884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1653AE8287EFF7100FE6884 /* StickTableFooterView-swift */;
+			targetProxy = D1653B00287EFF7300FE6884 /* PBXContainerItemProxy */;
+		};
+		D1653B0B287EFF7300FE6884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1653AE8287EFF7100FE6884 /* StickTableFooterView-swift */;
+			targetProxy = D1653B0A287EFF7300FE6884 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1653AF2287EFF7100FE6884 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1653AF3287EFF7100FE6884 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1653AF7287EFF7300FE6884 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1653AF8287EFF7300FE6884 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1653B11287EFF7300FE6884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1653B12287EFF7300FE6884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1653B14287EFF7300FE6884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2S646K8HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "StickTableFooterView-swift/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phil.StickTableFooterView-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1653B15287EFF7300FE6884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2S646K8HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "StickTableFooterView-swift/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phil.StickTableFooterView-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1653B17287EFF7300FE6884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2S646K8HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phil.StickTableFooterView-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StickTableFooterView-swift.app/StickTableFooterView-swift";
+			};
+			name = Debug;
+		};
+		D1653B18287EFF7300FE6884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2S646K8HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phil.StickTableFooterView-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StickTableFooterView-swift.app/StickTableFooterView-swift";
+			};
+			name = Release;
+		};
+		D1653B1A287EFF7300FE6884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2S646K8HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phil.StickTableFooterView-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "StickTableFooterView-swift";
+			};
+			name = Debug;
+		};
+		D1653B1B287EFF7300FE6884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2S646K8HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phil.StickTableFooterView-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "StickTableFooterView-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1653AE4287EFF7100FE6884 /* Build configuration list for PBXProject "StickTableFooterView-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1653B11287EFF7300FE6884 /* Debug */,
+				D1653B12287EFF7300FE6884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1653B13287EFF7300FE6884 /* Build configuration list for PBXNativeTarget "StickTableFooterView-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1653B14287EFF7300FE6884 /* Debug */,
+				D1653B15287EFF7300FE6884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1653B16287EFF7300FE6884 /* Build configuration list for PBXNativeTarget "StickTableFooterView-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1653B17287EFF7300FE6884 /* Debug */,
+				D1653B18287EFF7300FE6884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1653B19287EFF7300FE6884 /* Build configuration list for PBXNativeTarget "StickTableFooterView-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1653B1A287EFF7300FE6884 /* Debug */,
+				D1653B1B287EFF7300FE6884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1653AE1287EFF7100FE6884 /* Project object */;
+}
