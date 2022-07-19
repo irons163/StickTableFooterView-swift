@@ -16,6 +16,7 @@
 		D1653B04287EFF7300FE6884 /* StickTableFooterView_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1653B03287EFF7300FE6884 /* StickTableFooterView_swiftTests.swift */; };
 		D1653B0E287EFF7300FE6884 /* StickTableFooterView_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1653B0D287EFF7300FE6884 /* StickTableFooterView_swiftUITests.swift */; };
 		D1653B10287EFF7300FE6884 /* StickTableFooterView_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1653B0F287EFF7300FE6884 /* StickTableFooterView_swiftUITestsLaunchTests.swift */; };
+		D1653B1D287F066200FE6884 /* ViewWithOutboundsButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1653B1C287F066200FE6884 /* ViewWithOutboundsButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D1653B09287EFF7300FE6884 /* StickTableFooterView-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StickTableFooterView-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1653B0D287EFF7300FE6884 /* StickTableFooterView_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickTableFooterView_swiftUITests.swift; sourceTree = "<group>"; };
 		D1653B0F287EFF7300FE6884 /* StickTableFooterView_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickTableFooterView_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D1653B1C287F066200FE6884 /* ViewWithOutboundsButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWithOutboundsButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				D1653AEC287EFF7100FE6884 /* AppDelegate.swift */,
 				D1653AEE287EFF7100FE6884 /* SceneDelegate.swift */,
 				D1653AF0287EFF7100FE6884 /* ViewController.swift */,
+				D1653B1C287F066200FE6884 /* ViewWithOutboundsButtons.swift */,
 				D1653AF2287EFF7100FE6884 /* Main.storyboard */,
 				D1653AF5287EFF7300FE6884 /* Assets.xcassets */,
 				D1653AF7287EFF7300FE6884 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				D1653AF1287EFF7100FE6884 /* ViewController.swift in Sources */,
 				D1653AED287EFF7100FE6884 /* AppDelegate.swift in Sources */,
+				D1653B1D287F066200FE6884 /* ViewWithOutboundsButtons.swift in Sources */,
 				D1653AEF287EFF7100FE6884 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

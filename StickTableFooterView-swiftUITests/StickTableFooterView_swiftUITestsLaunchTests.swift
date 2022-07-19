@@ -3,7 +3,7 @@
 //  StickTableFooterView-swiftUITests
 //
 //  Created by Phil Chang on 2022/7/13.
-//  Copyright © 2022 Yahoo. All rights reserved.
+//  Copyright © 2022 . All rights reserved.
 //
 
 import XCTest
